@@ -1,0 +1,48 @@
+/*core designs*/
+:root{
+    --color1: #325031;
+    --color2: #a79c86;
+    --color3: #d2cfda;
+    --color4: #d39c7e;
+    --color5: #90614d;
+    --color6: #c88b3a;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+}
+
+/*custom colors*/
+.color1-b{
+    background-color: var(--color1);
+}
+.color1-t{
+    color: var(--color1);
+}
+.color2-b{
+    background-color: var(--color2);
+}
+.color2-t{
+    color: var(--color2);
+}
+
+
+
+
+/*screen sizes*/
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
